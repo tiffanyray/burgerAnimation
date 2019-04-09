@@ -60,15 +60,15 @@ nav {
 } 
 
 .nav-open.burger::before {
-    animation: lineBeforeAnim 1s ease forwards;
+    animation: lineBeforeAnim .5s ease forwards;
 }
 
 .nav-open.burger::after {
-    animation: lineAfterAnim 1s ease forwards;
+    animation: lineAfterAnim .5s ease forwards;
 }
 
 .nav-open.burger {
-    animation: burgerDivAnim 1s ease forwards;
+    animation: burgerDivAnim .5s ease forwards;
 }
 
 @keyframes burgerDivAnim {
